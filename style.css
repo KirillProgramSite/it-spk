@@ -117,7 +117,7 @@ nav.header__menu a:nth-child(3){
     height: 100vh;
 }
 
-@media(max-width: 376px){
+@media(max-width: 426px){
     .hero{
         background-image: url('./img/bgHeroPhone.jpg');
         background-size: cover;
@@ -210,7 +210,8 @@ nav.header__menu a:nth-child(3){
     width: 821px;
 }
 
-@media(max-width: 376px){
+
+@media(max-width: 426px){
     .container{
        /* width: 1000px;   */
        padding: 0px 20px;
@@ -263,5 +264,3 @@ nav.header__menu a:nth-child(3){
     .about-us__wrapper{
         display: block;
     }
-
-}
