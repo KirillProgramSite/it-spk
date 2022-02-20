@@ -254,6 +254,7 @@ nav.header__menu a:nth-child(3){
         width: 333px;
         padding-bottom: 46px;
         font-size: 40px;
+        margin: 0;
     }
 
     .hero__title p{
