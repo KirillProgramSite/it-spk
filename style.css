@@ -169,7 +169,7 @@ nav.header__menu a:nth-child(3){
     justify-content: space-between;
 }
 
-.hero button{
+.btn button{
     background: #00FEFF;
     display: flex;
     align-items: center;
@@ -177,7 +177,7 @@ nav.header__menu a:nth-child(3){
     /* margin-right: 337px; */
 }
 
-.hero button p{
+.btn button p{
     padding-right: 11px;
     text-transform: uppercase;
     font-weight: 700;
@@ -192,7 +192,7 @@ nav.header__menu a:nth-child(3){
 
 .about-us{
     padding-top: 90px;
-    padding-bottom: 61px;
+    padding-bottom: 149px;
 }
 
 .about-us__title h1{
@@ -210,6 +210,144 @@ nav.header__menu a:nth-child(3){
     width: 821px;
 }
 
+.service{
+    padding-bottom: 70px;
+}
+
+.service__title h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #001E42;
+    padding-bottom: 52px;
+}
+
+.service__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.service__item{
+    padding-right: 106px;
+    padding-bottom: 63px;
+
+    display: flex;
+    align-items: center;
+}
+
+.service__item:nth-child(3),
+.service__item:nth-child(6){
+    padding-right: 0;
+}
+
+.service__item-img{
+    padding-right: 26px;
+}
+
+.service__item-text p{
+    font-weight: 700;
+    color: #001E42;
+    width: 166px;
+}
+
+.working{
+    padding-bottom: 125px;
+}
+
+.working__title h3{
+    font-weight: 700;
+    color: #001E42;
+    font-size: 24px;
+    padding-bottom: 31px;
+}
+
+.working__wrapper{
+    display: flex;
+}
+
+.working__item p{
+    font-weight: 400;
+    color: #252D37;
+    width: 529px;
+    height: 182px;
+    padding-right: 32px;
+}
+
+.w-item2 p{
+    padding-right: 0;
+}
+
+.goal{
+    padding-bottom: 111px;
+}
+
+.goal__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.goal__text h2{
+    width: 521px;
+    font-weight: 700;
+    color:#001E42;
+}
+
+
+.order__title h3{
+    color: #001E42;
+    font-size: 24px;
+    padding-bottom: 31px;
+}
+
+.order__wrapper{
+    display: flex;
+}
+
+
+.order__item{
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+.order__text{
+    z-index: 1;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+/* .order__text:nth-child(2){
+    z-index: 1;
+    padding-left: 28px;
+    padding-top: 50px;
+} */
+
+.order__text{
+    font-size: 18px;
+    font-weight: 700;
+    width: 300px;
+}
+
+.order__number{
+    z-index: 0;
+    position: absolute;
+    left: 0;
+}
+
+.order__number p{
+    font-size: 96px;
+    color: #00FEFF;
+    font-weight: 700;
+}
+
+
+
+
+
+
+/* Адаптив под мобилки */
 
 @media(max-width: 501px){
     .container{
@@ -265,4 +403,6 @@ nav.header__menu a:nth-child(3){
     .about-us__wrapper{
         display: block;
     }
+
+    /* Конец адапитивной верстики */
 }
