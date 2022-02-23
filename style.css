@@ -293,6 +293,10 @@ nav.header__menu a:nth-child(3){
     color:#001E42;
 }
 
+.order{
+    padding-bottom: 115px;
+}
+
 
 .order__title h3{
     color: #001E42;
@@ -307,6 +311,7 @@ nav.header__menu a:nth-child(3){
 
 .order__item{
     position: relative;
+    padding-right: 82px;
 
     display: flex;
     align-items: center;
@@ -314,9 +319,27 @@ nav.header__menu a:nth-child(3){
 
 .order__text{
     z-index: 1;
+}
+
+.order__text p{
+    color: #001E42;
+}
+
+.order_num1{
     padding-left: 15px;
     padding-top: 25px;
 }
+
+.order_num2{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.order_num3{
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
 
 /* .order__text:nth-child(2){
     z-index: 1;
@@ -342,6 +365,157 @@ nav.header__menu a:nth-child(3){
     font-weight: 700;
 }
 
+.prices{
+    padding-bottom: 81px;
+}
+
+.prices__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prices__text h1{
+    font-size: 50px;
+    color: #001E42;
+    padding-bottom: 33px;
+}
+
+.price__desc p{
+    width: 529px;
+    color: #252D37;
+    padding-bottom: 22px;
+}
+
+.price__desc p span{
+    font-weight: bold;
+}
+
+.prices__btns{
+    display: flex;
+    align-items: center;
+}
+
+.price__btn-wrapper{
+    display: flex;
+    align-items: center;
+
+    border: 2px solid #001E42;
+    padding: 13px 22px;
+}
+
+.price__btn{
+    cursor: pointer;
+    transition: background-color .5s linear;
+    margin-right: 22px;
+    padding: 4px 5px;
+}
+
+.price__btn-wrapper:nth-child(2){
+    margin-right: 0;
+}
+
+.price__btn-wrapper p{
+    padding-right: 10px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* dark */
+
+    color: #001E42;
+}
+
+.price__btn:hover{
+    background-color: #F2F2F2;
+}
+
+.price__cards-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.prices__cards-item{
+    padding: 40px 19px;
+    text-align: center;
+    border: 2px solid #001E42;
+    margin-right: 12px;
+}
+
+.price__cards-top h3{
+    padding-bottom: 16px;
+    font-weight: normal;
+    color: #001E42;
+    font-size: 18px;
+}
+
+.price__cards-bottom h3{
+    font-weight: normal;
+    color: #001E42;
+    font-size: 18px;    
+}
+
+.price-cards-title2 h2{
+    /* font-size: 26px; */
+    line-height: 140%;
+    /* or 36px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* dark */
+
+    color: #001E42;
+}
+
+.price h2{
+    font-size: 70px;    
+    line-height: 115%;
+    /* or 80px */
+
+    text-align: center;
+
+    /* dark */
+
+    color: #001E42;
+}
+
+.price-cards p{
+    padding-bottom: 28px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    /* dark */
+
+    color: #001E42;
+}
+
+
+.clients__title h1{
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+
+    /* dark */
+
+    color: #001E42;
+}
+
+.clients__wrapper img{
+    padding-right: 60px;
+}
+
+.clients__wrapper img:nth-child(5){
+    padding-right: 0;
+}
+
 
 
 
@@ -351,8 +525,7 @@ nav.header__menu a:nth-child(3){
 
 @media(max-width: 501px){
     .container{
-       /* width: 1000px;   */
-       padding: 0px 20px;
+       padding: 0px 15px;
     }
 
     header.header{
